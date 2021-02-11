@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-// just for testing the actual PR issue
 class wallet
 {
 private:
@@ -13,7 +12,7 @@ public:
 };
 
 int wallet::id=0;
-
+//adding unnecessarily
 class user: public wallet
 {
 
@@ -78,9 +77,6 @@ void transfer(user& ac2, double amt)
 		{
 			credit(*this,10);
 			ac2.credit(ac2,10);
-			// for no transaction, could use below:
-			// this.bal+=10;
-			// ac2.bal+=10;
 		}
 
 }
