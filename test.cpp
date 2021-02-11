@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-//testing tracking with git------> simple case
+
 class wallet
 {
 private:
@@ -76,10 +76,8 @@ void transfer(user& ac2, double amt)
 
 	if(this->bal==ac2.bal)				// offer 1
 		{
-			// credit(*this,10);
-			// ac2.credit(ac2,10);
-			bal+=10;
-			ac2.bal+=10;
+			credit(*this,10);
+			ac2.credit(ac2,10);
 		}
 
 }
