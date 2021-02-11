@@ -12,7 +12,7 @@ public:
 };
 
 int wallet::id=0;
-
+//adding unnecessarily
 class user: public wallet
 {
 
